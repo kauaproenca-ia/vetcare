@@ -4,74 +4,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VetCare - Clínica Veterinária e Centro Diagnóstico.</title>
+    <link rel="stylesheet" href="./css/reset.css">
 </head>
 <body>
-    <h1 class="title">VetCare Hospital</h1>
+    <header class="header">
+        <div class="header__brand">
+            <h1 class="header__title">VetCare Hospital</h1>
+        </div>
 
-    <section id="home" class="color-section">
-        <aside class="color-section__sidebar">
-            <h2 class="color-section__title">Cuidados Especializados e Amor ao Seu Pet</h2>
-            <nav class="color-section__menu">
-                <a href="#home" class="color-section__link color-section__link--active">Início</a>
-                <a href="#especialidades" class="color-section__link">Especialidades</a>
-                <a href="#equipe" class="color-section__link">Equipe Médica</a>
-                <a href="#infraestrutura" class="color-section__link">Infraestrutura</a>
-                <a href="#faq" class="color-section__link">Dúvidas</a>
-            </nav>
-        </aside>
-    </section>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Início</a></li>
+                <li class="nav__item"><a href="#especialidades" class="nav__link">Especialidades</a></li>
+                <li class="nav__item"><a href="#equipe" class="nav__link">Equipe Médica</a></li>
+                <li class="nav__item"><a href="#infraestrutura" class="nav__link">Infraestrutura</a></li>
+                <li class="nav__item"><a href="#faq" class="nav__link">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <section id="especialidades" class="color-section">
-        <aside class="color-section__sidebar">
-            <h2 class="color-section__title">Cuidados Especializados e Amor ao Seu Pet</h2>
-            <nav class="color-section__menu">
-                <a href="#home" class="color-section__link color-section__link--active">Início</a>
-                <a href="#especialidades" class="color-section__link">Especialidades</a>
-                <a href="#equipe" class="color-section__link">Equipe Médica</a>
-                <a href="#infraestrutura" class="color-section__link">Infraestrutura</a>
-                <a href="#faq" class="color-section__link">Dúvidas</a>
-            </nav>
-        </aside>
-    </section>
-
-    <section id="equipe" class="color-section">
-        <aside class="color-section__sidebar">
-            <h2 class="color-section__title">Cuidados Especializados e Amor ao Seu Pet</h2>
-            <nav class="color-section__menu">
-                <a href="#home" class="color-section__link color-section__link--active">Início</a>
-                <a href="#especialidades" class="color-section__link">Especialidades</a>
-                <a href="#equipe" class="color-section__link">Equipe Médica</a>
-                <a href="#infraestrutura" class="color-section__link">Infraestrutura</a>
-                <a href="#faq" class="color-section__link">Dúvidas</a>
-            </nav>
-        </aside>
-    </section>
-
-    <section id="infraestrutura" class="color-section">
-        <aside class="color-section__sidebar">
-            <h2 class="color-section__title">Cuidados Especializados e Amor ao Seu Pet</h2>
-            <nav class="color-section__menu">
-                <a href="#home" class="color-section__link color-section__link--active">Início</a>
-                <a href="#especialidades" class="color-section__link">Especialidades</a>
-                <a href="#equipe" class="color-section__link">Equipe Médica</a>
-                <a href="#infraestrutura" class="color-section__link">Infraestrutura</a>
-                <a href="#faq" class="color-section__link">Dúvidas</a>
-            </nav>
-        </aside>
-    </section>
-
-    <section id="faq" class="color-section">
-        <aside class="color-section__sidebar">
-            <h2 class="color-section__title">Cuidados Especializados e Amor ao Seu Pet</h2>
-            <nav class="color-section__menu">
-                <a href="#home" class="color-section__link color-section__link--active">Início</a>
-                <a href="#especialidades" class="color-section__link">Especialidades</a>
-                <a href="#equipe" class="color-section__link">Equipe Médica</a>
-                <a href="#infraestrutura" class="color-section__link">Infraestrutura</a>
-                <a href="#faq" class="color-section__link">Dúvidas</a>
-            </nav>
-        </aside>
-    </section>
+    <main>
+        <section id="home" class="menu-section">
+            <aside class="section__sidebar">
+                <h2 class="section__title">Cuidados Especializados e Amor ao Seu Pet</h2>
+                <nav class="nav">
+                    <a href="#home" class="section__link ">Início</a> <!--ATIVO-->
+                    <a href="#especialidades" class="section__link">Especialidades</a>
+                    <a href="#equipe" class="section__link">Equipe Médica</a>
+                    <a href="#infraestrutura" class="section__link">Infraestrutura</a>
+                    <a href="#faq" class="section__link">Dúvidas</a>
+                </nav>
+            </aside>
+        </section>
+        <section id="especialidades" class="section">
+            <aside class="section__sidebar">
+                <h2 class="section__title">Nossas Especialidades</h2>
+                <nav class="nav">
+                    <a href="#home" class="section__link ">Início</a>
+                    <a href="#especialidades" class="section__link">Especialidades</a> <!--ATIVO-->
+                    <a href="#equipe" class="section__link">Equipe Médica</a>
+                    <a href="#infraestrutura" class="section__link">Infraestrutura</a>
+                    <a href="#faq" class="section__link">Dúvidas</a>
+                </nav>
+            </aside>
+        </section>
+        <section id="equipe" class="section">
+            <aside class="section__sidebar">
+                <h2 class="section__title">Corpo Clínico Responsável</h2>
+                <nav class="nav">
+                    <a href="#home" class="section__link ">Início</a>
+                    <a href="#especialidades" class="section__link">Especialidades</a>
+                    <a href="#equipe" class="section__link">Equipe Médica</a> <!--ATIVO-->
+                    <a href="#infraestrutura" class="section__link">Infraestrutura</a>
+                    <a href="#faq" class="section__link">Dúvidas</a>
+                </nav>
+            </aside>
+        </section>
+        <section id="infraestrutura" class="section">
+            <aside class="section__sidebar">
+                <h2 class="section__title">Estrutura e Horários de Atendimento</h2>
+                <nav class="nav">
+                    <a href="#home" class="section__link ">Início</a>
+                    <a href="#especialidades" class="section__link">Especialidades</a>
+                    <a href="#equipe" class="section__link">Equipe Médica</a>
+                    <a href="#infraestrutura" class="section__link">Infraestrutura</a> <!--ATIVO-->
+                    <a href="#faq" class="section__link">Dúvidas</a>
+                </nav>
+            </aside>
+        </section>
+        <section id="faq" class="section">
+            <aside class="section__sidebar">
+                <h2 class="section__title">Perguntas Frequentes (FAQ)</h2>
+                <nav class="nav">
+                    <a href="#home" class="section__link ">Início</a>
+                    <a href="#especialidades" class="section__link">Especialidades</a>
+                    <a href="#equipe" class="section__link">Equipe Médica</a>
+                    <a href="#infraestrutura" class="section__link">Infraestrutura</a>
+                    <a href="#faq" class="section__link">Dúvidas</a> <!--ATIVO-->
+                </nav>
+            </aside>
+        </section>
+    </main>
 
     <footer class="footer">
                 <div class="footer__section">
