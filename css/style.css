@@ -6,7 +6,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: var(--header-height);
+    height: 10vh;
     background-color: var(--color-bg-transparent);
     border-bottom: 1px solid var(--color-border);
     display: flex;
@@ -32,9 +32,9 @@
 .nav__list{
     display: flex;
     gap: 8px;
-    background-color: var(--color-nav-list-bg);
+    background-color: var(--color-primary);
     padding: 6px;
-    border-radius: var(--radius-md);
+    border-radius: var(--radius-sm);
     border: 1px solid var(--color-border);
 }
 
@@ -51,4 +51,28 @@
     position: relative;
     background-color: transparent;
     transition: color 0.9s ease, background-color 0.9s ease, transform 0.8s ease;
+}
+
+.section__title{
+
+}
+
+.section__link{
+
+}
+
+.section__link-active{
+
+}
+
+.section__content{
+
+}
+
+.footer{
+    position: fixed;
+}
+
+.footer__section{
+    position: fixed;
 }
