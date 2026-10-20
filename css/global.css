@@ -34,3 +34,26 @@ p {
     background-color: var(--color-bg-main);
 }
 
+.section__container {
+    width: 100%;
+}
+
+.section__title {
+    color: var(--color-text-title);
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.section__line {
+    display: block;
+    width: 5rem;
+    height: 0.4rem;
+    margin: 1.2rem 0 2.2rem;
+    background-color: var(--color-primary);
+    border-radius: 1rem;
+}
+
+.section__paragraph {
+    color: var(--color-text-muted);
+    margin-bottom: 1.5rem;
+}
