@@ -1,0 +1,36 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: var(--font-main);
+    font-size: 1.6rem;
+    color: var(--color-text-body);
+    background-color: var(--color-bg-main);
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.main-content {
+    margin-left: 22rem;
+    padding-bottom: 5.5rem;
+}
+
+.section {
+    min-height: 100vh;
+    padding: 8rem 5%;
+    display: flex;
+    align-items: center;
+    scroll-margin-top: 2rem;
+}
+
+.section--colored {
+    background-color: var(--color-bg-main);
+}
+
